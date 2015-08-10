@@ -1,0 +1,16 @@
+French :
+
+un, une, des, le, la, les, au, du, de la, aux
+
+celui, celui-ci, celui-la, ceux, ceux-ci, ceux-la, celle, celle-ci, celle-la, celles, celles-ci, celles-la, ce, ceci, cela, ca
+
+Spanish :
+
+el, la, los, las, un, unos, una, unas
+
+este, estos, esta, estas, ese, esos, esa, esas, aquel, aquellos, aquella, aquellas
+
+German :
+
+
+Italian :

@@ -1,0 +1,59 @@
+<html>
+
+<head>
+
+<script>
+
+// Input
+
+var input = "@T+his is a test A sentence bitch please ! G\"ive me? my money back or I   +      will kill you , d.,,sa.dkkasjd bn   jkdghuyhsdgf   ";
+
+// Lowercase
+
+input = input.toLowerCase();
+
+// Remove punctuation
+
+input = input.replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~()@+\"\'?]/g, "");
+
+// Remove useless spaces
+
+input = input.replace(/\s+/g,' ').trim();
+
+// Remove articles
+
+input = input.replace(/a /g, "");
+input = input.replace(/an /g, "");
+input = input.replace(/the /g, "");
+
+// Remove useless spaces
+
+input = input.replace(/\s+/g,' ').trim();
+
+// Remove demonstrative
+
+input = input.replace(/this /g, "");
+input = input.replace(/that /g, "");
+input = input.replace(/these /g, "");
+input = input.replace(/those /g, "");
+
+// Remove useless spaces
+
+input = input.replace(/\s+/g,' ').trim();
+
+// Split the sentence
+
+var output = input.split(" ");
+
+// Output
+
+console.log(output);
+
+</script>
+
+</head>
+
+<body>
+</body>
+
+</html>

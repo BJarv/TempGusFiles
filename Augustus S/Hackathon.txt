@@ -1,0 +1,4 @@
+- Translate any languages to english -> google translation API
+- Find keywords -> remove articles, punctuation
+- Translate keywords into images -> google image the keyword + "symbol"
+- The user can delete images
